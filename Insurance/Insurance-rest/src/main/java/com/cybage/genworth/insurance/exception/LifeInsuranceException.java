@@ -3,7 +3,7 @@ package com.cybage.genworth.insurance.exception;
 public class LifeInsuranceException extends RuntimeException{
 
 	
-	private String errorMessages;
+	private String errorMessage;
 
 	public LifeInsuranceException(String errorMessage) {
 		super(); //calling constructor Parent RunTime
@@ -11,10 +11,10 @@ public class LifeInsuranceException extends RuntimeException{
 	}
 	
 	public String getErrorMessage() {
-		return errorMessages;
+		return errorMessage;
 	}
 	public void setErrorMessage(String errorMessage) {
-		this.errorMessages = errorMessage;
+		this.errorMessage = errorMessage;
 	}
 	
 }
