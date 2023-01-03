@@ -6,6 +6,7 @@ public class LifeInsuranceException extends RuntimeException{
 	private String errorMessage;
 	private String norecordfound;
 	private int aadharNumber ;
+	private String panNumber;
 
 	public LifeInsuranceException(String errorMessage) {
 		super(); //calling constructor Parent RunTime
