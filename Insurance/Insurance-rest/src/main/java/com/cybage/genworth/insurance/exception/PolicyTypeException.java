@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 public class PolicyTypeException extends RuntimeException {
 	
 	private String name;
+	private int id;
 	
 	private static final long serialVersionUID = 1L;
 
